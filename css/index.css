@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow:hidden ;
+}
+body{
+	background-image: url(../img/timg.jpg);
+	background-size:cover ;
+	background-repeat:no-repeat ;
+	
+}
+#main li{
+    width: 50%;
+    /*transition: all 1s;*/
+}
+#area_one{
+    background-color: rgba(48,64,67,0.6);
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#44000000,endColorstr=#44000000);*/
+    /*filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);*/
+}
+#area_two{
+    background-color: rgba(120,86,63,0.6);
+}
+
+#area_three{
+    background-color: rgba(161,53,42,0.6);
+}
+#area_four{
+    background-color: rgba(165,169,149,0.6);
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float:right ;
+}
